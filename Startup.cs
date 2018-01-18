@@ -34,7 +34,7 @@ namespace aspnetcore_reactredux_sample
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
                     HotModuleReplacement = true,
-                    ReactHotModuleReplacement = true
+                    ReactHotModuleReplacement = true                    
                 });
             }
             else
